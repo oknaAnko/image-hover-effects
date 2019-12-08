@@ -15,36 +15,27 @@
     <div class="wrapper">
       <h1>What can I do with an image?</h1>
       <div class="gallery">
-        <div class="container">
-          <img src="img/limonki_640x378.jpg" alt="limes" class="blur" />
-          <div class="overlay">
-            <div class="text">blur</div>
-          </div>
+        <div class="container blur">
+          <img src="img/limonki_640x378.jpg" alt="limes" class="img-blur" />
+          <div class="text">blur</div>
         </div>
-        <div class="container">
-          <img src="img/limonki_640x378.jpg" alt="limes" class="" />
-          <div class="overlay">
-            <div class="text"></div>
-          </div>
+        <div class="container shadow">
+          <img src="img/limonki_640x378.jpg" alt="limes" />
+          <div class="text">shadow</div>
         </div>
-        <div class="container">
-          <img src="img/limonki_640x378.jpg" alt="limes" class="" />
-          <div class="overlay">
-            <div class="text"></div>
-          </div>
+        <div class="container saturate">
+          <img src="img/limonki_640x378.jpg" alt="limes" />
+          <div class="text">saturate</div>
         </div>
-        <div class="container">
-          <img src="img/limonki_640x378.jpg" alt="limes" class="" />
-          <div class="overlay">
-            <div class="text"></div>
-          </div>
+        <div class="container contrast">
+          <img src="img/limonki_640x378.jpg" alt="limes" class="img-contrast" />
+          <div class="text">contrast</div>
         </div>
-        <div class="container">
-          <!-- <img src="img/limonki_640x378.jpg" alt="limes" class="" /> -->
-          <div class="overlay">
-            <div class="text"></div>
-          </div>
+        <div class="container hue-rotate">
+          <img src="img/limonki_640x378.jpg" alt="limes" />
+          <div class="text">hue-rotate</div>
         </div>
+
         <div class="container">
           <!-- <img src="img/limonki_640x378.jpg" alt="limes" class="" /> -->
           <div class="overlay">
@@ -89,5 +80,14 @@
         </div>
       </div>
     </div>
+    <!-- <script>
+      const img = document.querySelector("img.blur");
+      const text = document.querySelector(".text-blur");
+      const addEffect = () => {
+        console.log("ok");
+        text.style.color = "blue";
+      };
+      img.addEventListener("transitionend", addEffect);
+    </script> -->
   </body>
 </html>
