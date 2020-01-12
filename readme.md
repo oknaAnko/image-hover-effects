@@ -10,7 +10,7 @@ Image hover effects
 
 ## General info
 
-This is an image gallery that presents some hover effects. The main goal of the project was to practise scss. Appologies for non-responsiveness and rather non-semantic HTML.
+This is an image gallery that presents some hover effects. The main goal of the project was to practise scss. Apologies for non-responsiveness and rather non-semantic HTML.
 
 ## Technologies
 
