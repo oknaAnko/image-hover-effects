@@ -1,0 +1,24 @@
+@mixin block-center() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin text-style() {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin transform($transforms) {
+  transform: $transforms;
+}
+
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+@mixin scale-translate-rotate($scale, $x, $y, $deg) {
+  @include transform(scale($scale) translate($x, $y) rotate(#{$deg}deg));
+}
